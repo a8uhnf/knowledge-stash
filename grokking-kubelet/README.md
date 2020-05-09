@@ -14,3 +14,6 @@
 ### check kube apiserver's etcd 
 - download `https://git.io/etcdclient.yaml` in `/etc/kubernetes/manifests`. only in control plane.
 - etcdctl get "" --from-key --keys-only
+
+### kubelet expressed commands
+- kubectl cp, logs, exec, attach
